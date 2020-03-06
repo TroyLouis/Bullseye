@@ -13,10 +13,11 @@
 		0522895A240F32B70058FDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05228959240F32B70058FDA7 /* Assets.xcassets */; };
 		0522895D240F32B70058FDA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0522895C240F32B70058FDA7 /* Preview Assets.xcassets */; };
 		05228960240F32B70058FDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0522895E240F32B70058FDA7 /* LaunchScreen.storyboard */; };
+		052289682411E2830058FDA7 /* aboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052289672411E2830058FDA7 /* aboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05228950240F32B50058FDA7 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05228950240F32B50058FDA7 /* Hit The Target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hit The Target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05228953240F32B50058FDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05228955240F32B50058FDA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05228957240F32B50058FDA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		0522895C240F32B70058FDA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0522895F240F32B70058FDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05228961240F32B70058FDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052289672411E2830058FDA7 /* aboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		05228951240F32B50058FDA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05228950240F32B50058FDA7 /* Bullseye.app */,
+				05228950240F32B50058FDA7 /* Hit The Target.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				0522895E240F32B70058FDA7 /* LaunchScreen.storyboard */,
 				05228961240F32B70058FDA7 /* Info.plist */,
 				0522895B240F32B70058FDA7 /* Preview Content */,
+				052289672411E2830058FDA7 /* aboutView.swift */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -92,7 +95,7 @@
 			);
 			name = Bullseye;
 			productName = Bullseye;
-			productReference = 05228950240F32B50058FDA7 /* Bullseye.app */;
+			productReference = 05228950240F32B50058FDA7 /* Hit The Target.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052289682411E2830058FDA7 /* aboutView.swift in Sources */,
 				05228954240F32B50058FDA7 /* AppDelegate.swift in Sources */,
 				05228956240F32B50058FDA7 /* SceneDelegate.swift in Sources */,
 				05228958240F32B50058FDA7 /* ContentView.swift in Sources */,
@@ -294,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Troy-Arnold.Bullseye";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hit The Target";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Troy-Arnold.Bullseye";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hit The Target";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
